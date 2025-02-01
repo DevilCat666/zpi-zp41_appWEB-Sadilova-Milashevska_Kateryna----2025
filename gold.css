@@ -1,0 +1,103 @@
+
+/* Головна секція */
+.main-content {
+    text-align: center;
+    padding: 100px 20px;
+    min-height: 100vh;
+    background-image: url('img/Back-site.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Текст на фоні */
+.text-content h2 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.category-name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ADC4C4;
+}
+
+.popular {
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Блок з категоріями */
+.categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.categories-text p {
+    font-size: 24px;
+    color: #fff;
+}
+
+.categories-buttons {
+    display: flex;
+}
+
+.category-button {
+    background-color: #4D5B4A;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.category-button:hover {
+    background-color: #898d89;
+}
+
+/* Секція товарів */
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-name {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #ff4500;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Кнопки категорій */
+.navbar a:hover {
+    text-decoration: underline;
+}

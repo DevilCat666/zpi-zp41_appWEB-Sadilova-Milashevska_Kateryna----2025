@@ -1,0 +1,13 @@
+/* Основні стилі для сайту */
+@font-face {
+    font-family: 'Arsenal';
+    src: url('./font/Arsenal-Italic.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kyiv';
+    src: url('./font/KyivTypeTitling-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

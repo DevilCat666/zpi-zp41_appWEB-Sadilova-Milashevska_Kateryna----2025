@@ -1,0 +1,42 @@
+
+/* Головна секція */
+.main-content {
+    text-align: center;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url('img/Back-site.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Текст на фоні */
+.text-content h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #ADC4C4;
+}
+
+.text-content p {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #ADC4C4;
+    font-weight: normal;
+}
+
+.discount {
+    font-size: 22px;
+    font-weight: bold;
+    color: #86bec2;
+    margin-top: 20px;
+}
+
+/* Кнопки категорій */
+.categories a:hover {
+    text-decoration: underline;
+}
+
+
